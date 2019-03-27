@@ -1,0 +1,25 @@
+ul.nav-bar{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: #333;
+}
+ul.nav-bar > li.left-item{
+    float: left;
+}
+ul.nav-bar > li.right-item{
+    float: right;
+}
+li.nav-item{
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+li.nav-item:hover{
+    background: #eceeec;
+    color: #000;
+}
+li.nav-brand{
+    font-weight: bold;
+}
